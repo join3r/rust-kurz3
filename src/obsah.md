@@ -8,9 +8,10 @@
 5. Príklad 2
 6. Return funkcie
 7. Príklad 3
-8. while
 9. for
     - range
 10. Príklad 4
 11. Flow programu
 12. Príklad 5
+
+80. while

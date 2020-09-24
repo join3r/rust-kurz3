@@ -26,10 +26,34 @@ pub fn bachi_if(baci: bool) {
 // vytvor funkciu delene, ktorá má ako vstup 2x i64 a výstup i64
 // funkcia má vydeliť oba vstupy
 
+pub fn delene(a: i64, b: i64) -> i64 {
+    a / b
+}
+
 // vytvor funkciu bachi_for, ktorá
 // vypíše pomocou for čísla od 1 do i32 (vrátane), ktorý bude vstupom funkcie
+// Oprav funckiu bachi, tak aby ak bude vstup menší ako 1 tak vypíše, že číslo je mimo
+
+pub fn bachi_for(dole: i32, hore: i32) {
+    if dole > hore {
+        println!("cislo je mimo")
+    } else {
+        for a in dole..=hore {
+            println!("{}", a);
+        }
+    }
+}
 
 // final task
 // sprav funkciu bachi_all, ktorá spustí
-// bachi, bachi_if, delene a bachi_for. Koľko vstupov musí mať aby mala všetko pre všetky funkcie?
-// aký musí mať výstup?
+pub fn bachi_all(delene1: i64, delene2: i64, z:i32, q:i32, h: bool) -> i64 {
+    bachi_for(z, q);
+    bachi_if(h);
+    let vyst_del = delene(delene1, delene2);
+    baci();
+    vyst_del
+}
+
+//  pub fn delene(a: i64, b: i64) -> i64 {
+//     a / b;
+// }
