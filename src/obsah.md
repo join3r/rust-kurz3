@@ -11,7 +11,15 @@
 9. for
     - range
 10. Príklad 4
-11. Flow programu
-12. Príklad 5
+11. Príklad 5
+------------------------
+12. while, loop
+13. Struct
+14. Result
+     - unwrap()
+     - is_ok()
+     - is_err()
+     - match
 
-80. while
+15. Flow programu
+16. Ownership

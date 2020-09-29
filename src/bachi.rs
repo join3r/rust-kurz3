@@ -54,6 +54,7 @@ pub fn bachi_all(delene1: i64, delene2: i64, z:i32, q:i32, h: bool) -> i64 {
     vyst_del
 }
 
-//  pub fn delene(a: i64, b: i64) -> i64 {
-//     a / b;
-// }
+// Zadefinuj Struct pre final task
+// zmen funkciu vo final tasku, tak aby používala ten Struct
+
+// použi Result

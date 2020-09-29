@@ -66,4 +66,5 @@ pub fn osiris_all(vstup: bool, a: i64, b: i64, u: i32) -> i64 {
     plus(a, b)
 }
 
-
+// Zadefinuj Struct pre final task
+// zmen funkciu vo final tasku, tak aby používala ten Struct

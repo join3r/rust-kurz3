@@ -67,4 +67,5 @@ pub fn evie_all(for1: i32, pif: bool, min1: i64, min2: i64) -> i64 {
     minus(min1,min2)
 }
 
-// fn minus(x: i64, y: i64) -> i64
+// Zadefinuj Struct pre final task
+// zmen funkciu vo final tasku, tak aby používala ten Struct

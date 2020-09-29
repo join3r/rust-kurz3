@@ -63,3 +63,6 @@ pub fn hydrant_all(x1: bool, x2: i64, y2: i64, x3: i32) -> bool {
   hydrant_for(x3);
   z
 }
+
+// Zadefinuj Struct pre final task
+// zmen funkciu vo final tasku, tak aby používala ten Struct

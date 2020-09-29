@@ -56,3 +56,6 @@ pub fn firestorm_all(be: bool, cislo1: i64, cislo2: i64, horny_interval: i32) ->
     firestorm_for(horny_interval);
     krat(cislo1, cislo2)
 }
+
+// Zadefinuj Struct pre final task
+// zmen funkciu vo final tasku, tak aby používala ten Struct
